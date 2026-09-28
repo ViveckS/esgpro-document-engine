@@ -1,0 +1,38 @@
+Carlito-Regular.ttf
+Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Carlito". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic with Reserved Font Name "Carlito". Licensed under the SIL Open Font License, Version 1.1.
+Lukasz Dziedzic
+http://scripts.sil.org/OFL
+tyPoland Lukasz Dziedzic
+
+Carlito-Bold.ttf
+Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Carlito". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic with Reserved Font Name "Carlito". Licensed under the SIL Open Font License, Version 1.1.
+Lukasz Dziedzic
+http://scripts.sil.org/OFL
+tyPoland Lukasz Dziedzic
+
+Carlito-Italic.ttf
+Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Carlito". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+Copyright (c) 2010-2013 by tyPoland Lukasz Dziedzic with Reserved Font Name "Carlito". Licensed under the SIL Open Font License, Version 1.1.
+Lukasz Dziedzic
+http://scripts.sil.org/OFL
+tyPoland Lukasz Dziedzic
+
+Caladea-Regular.ttf
+Carolina Giovagnoli and Andres Torresi
+Copyright (c) 2012 Huerta Tipografia
+Licensed under the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+Caladea-Italic.ttf
+Carolina Giovagnoli and Andres Torresi
+Copyright (c) 2012 Huerta Tipografia
+Licensed under the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+Caladea-Bold.ttf
+Carolina Giovagnoli and Andres Torresi
+Copyright (c) 2012 Huerta Tipografia
+Licensed under the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0

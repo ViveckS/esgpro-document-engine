@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ESGPro structured content model",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "programme",
+    "publication_status",
+    "approval",
+    "sources",
+    "sections",
+    "blocks",
+    "claims",
+    "open_issue_ids"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "programme": {
+      "type": "object",
+      "required": [
+        "display_name",
+        "short_name"
+      ]
+    },
+    "publication_status": {
+      "enum": [
+        "incomplete",
+        "review_only",
+        "approved"
+      ]
+    },
+    "approval": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array"
+    },
+    "sections": {
+      "type": "object"
+    },
+    "claims": {
+      "type": "array"
+    },
+    "open_issue_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "blocks": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "category",
+          "rich_text",
+          "source",
+          "source_status",
+          "locked_numeric_tokens"
+        ],
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "rich_text": {
+            "type": "string"
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_status": {
+            "enum": [
+              "missing",
+              "prior_editorial_draft_not_owner_verified",
+              "source_verified",
+              "owner_approved",
+              "editorial_nonfactual"
+            ]
+          },
+          "locked_numeric_tokens": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

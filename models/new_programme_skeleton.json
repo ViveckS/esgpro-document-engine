@@ -1,0 +1,1521 @@
+{
+  "schema_version": "1.0",
+  "document_id": "new-programme",
+  "programme": {
+    "display_name": null,
+    "short_name": null,
+    "credential_expansion": null
+  },
+  "publication_status": "incomplete",
+  "approval": {
+    "owner": null,
+    "date": null,
+    "approved_content_sha256": null,
+    "approved_configuration_sha256": null,
+    "approved_layout_sha256": null,
+    "visual_qa_passed": false,
+    "links_verified": false
+  },
+  "sources": [],
+  "sections": {
+    "programme_identity": [
+      "p1_text_001",
+      "p1_text_002",
+      "p2_text_001",
+      "p2_text_018",
+      "p2_text_022",
+      "p3_text_001",
+      "p4_text_001",
+      "p4_text_004",
+      "p4_text_015",
+      "p4_text_033",
+      "p5_text_001",
+      "p6_text_001",
+      "p6_text_026"
+    ],
+    "value_proposition": [
+      "p1_text_001",
+      "p1_text_003",
+      "p1_text_004",
+      "p1_text_005",
+      "p1_text_006",
+      "p1_text_018",
+      "p1_text_025",
+      "p1_text_029",
+      "p2_text_026",
+      "p3_text_002",
+      "p3_text_029",
+      "p3_text_030",
+      "p4_text_004",
+      "p4_text_005",
+      "p4_text_037",
+      "p5_text_030",
+      "p6_text_019",
+      "p6_text_024"
+    ],
+    "audience": [
+      "p1_text_005",
+      "p1_text_017",
+      "p5_text_020",
+      "p5_text_027"
+    ],
+    "learning_outcomes": [
+      "p1_text_018",
+      "p3_text_011",
+      "p3_text_019",
+      "p3_text_027",
+      "p4_text_003",
+      "p4_text_008",
+      "p4_text_011",
+      "p4_text_014",
+      "p4_text_020"
+    ],
+    "curriculum": [
+      "p2_text_006",
+      "p2_text_010",
+      "p2_text_022",
+      "p2_text_023",
+      "p2_text_025",
+      "p3_text_008",
+      "p3_text_010",
+      "p3_text_012",
+      "p3_text_016",
+      "p3_text_018",
+      "p3_text_020",
+      "p3_text_024",
+      "p4_text_002",
+      "p4_text_007",
+      "p4_text_008",
+      "p4_text_011",
+      "p4_text_036",
+      "p5_text_021",
+      "p6_text_017"
+    ],
+    "methodology": [
+      "p1_text_005",
+      "p1_text_021",
+      "p5_text_002",
+      "p5_text_004",
+      "p5_text_009",
+      "p5_text_012",
+      "p5_text_024",
+      "p5_text_025",
+      "p6_text_005",
+      "p6_text_015"
+    ],
+    "faculty": [
+      "p1_text_016",
+      "p1_text_017"
+    ],
+    "credentials": [
+      "p1_text_005",
+      "p1_text_022",
+      "p2_text_002",
+      "p2_text_003",
+      "p2_text_007",
+      "p2_text_009",
+      "p2_text_012",
+      "p2_text_015",
+      "p2_text_019",
+      "p2_text_020",
+      "p2_text_022",
+      "p6_text_004",
+      "p6_text_015"
+    ],
+    "certification": [
+      "p1_text_023",
+      "p2_text_020",
+      "p2_text_022",
+      "p3_text_020",
+      "p3_text_026",
+      "p4_text_011",
+      "p5_text_012",
+      "p5_text_029",
+      "p6_text_004",
+      "p6_text_015",
+      "p6_text_017"
+    ],
+    "schedule": [
+      "p1_text_003",
+      "p1_text_020",
+      "p2_text_008",
+      "p2_text_011",
+      "p2_text_014",
+      "p3_text_006",
+      "p3_text_014",
+      "p3_text_022",
+      "p5_text_005",
+      "p5_text_006",
+      "p5_text_007",
+      "p5_text_008",
+      "p5_text_011",
+      "p6_text_005",
+      "p6_text_015",
+      "p6_text_021",
+      "p6_text_022",
+      "p6_text_025"
+    ],
+    "fees": [
+      "p2_text_020",
+      "p2_text_021",
+      "p2_text_022",
+      "p6_text_004",
+      "p6_text_006",
+      "p6_text_007",
+      "p6_text_009",
+      "p6_text_010",
+      "p6_text_012",
+      "p6_text_013",
+      "p6_text_014",
+      "p6_text_016",
+      "p6_text_020",
+      "p6_text_021"
+    ],
+    "testimonials": [
+      "p4_text_023",
+      "p4_text_024",
+      "p4_text_026",
+      "p4_text_027",
+      "p4_text_029",
+      "p4_text_030",
+      "p4_text_032",
+      "p4_text_033"
+    ],
+    "statistics": [
+      "p1_text_017",
+      "p1_text_019",
+      "p1_text_024",
+      "p3_text_004",
+      "p6_text_015",
+      "p6_text_023"
+    ],
+    "faqs": [
+      "p5_text_026",
+      "p5_text_027",
+      "p5_text_028",
+      "p5_text_029"
+    ],
+    "contact_information": [
+      "p6_text_027"
+    ],
+    "cta": [
+      "p5_text_029",
+      "p6_text_002",
+      "p6_text_003",
+      "p6_text_018",
+      "p6_text_021",
+      "p6_text_023",
+      "p6_text_024",
+      "p6_text_025",
+      "p6_text_026"
+    ]
+  },
+  "blocks": {
+    "p1_text_001": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_002": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_003": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_004": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_005": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_006": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_007": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_008": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_009": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_010": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_011": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_012": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_013": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_014": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_015": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_016": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_017": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_018": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_019": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_020": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_021": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_022": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_023": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_024": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_025": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_026": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_027": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_028": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_029": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p1_text_030": {
+      "category": "programme_identity",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_001": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_002": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_003": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_004": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_005": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_006": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_007": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_008": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_009": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_010": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_011": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_012": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_013": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_014": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_015": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_016": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_017": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_018": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_019": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_020": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_021": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_022": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_023": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_024": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_025": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_026": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p2_text_027": {
+      "category": "credentials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_001": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_002": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_003": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_004": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_005": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_006": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_007": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_008": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_009": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_010": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_011": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_012": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_013": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_014": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_015": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_016": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_017": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_018": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_019": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_020": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_021": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_022": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_023": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_024": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_025": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_026": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_027": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_028": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_029": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_030": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p3_text_031": {
+      "category": "curriculum",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_001": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_002": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_003": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_004": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_005": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_006": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_007": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_008": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_009": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_010": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_011": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_012": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_013": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_014": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_015": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_016": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_017": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_018": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_019": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_020": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_021": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_022": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_023": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_024": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_025": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_026": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_027": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_028": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_029": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_030": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_031": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_032": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_033": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_034": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_035": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_036": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_037": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p4_text_038": {
+      "category": "professional_scope_and_testimonials",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_001": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_002": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_003": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_004": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_005": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_006": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_007": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_008": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_009": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_010": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_011": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_012": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_013": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_014": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_015": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_016": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_017": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_018": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_019": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_020": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_021": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_022": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_023": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_024": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_025": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_026": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_027": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_028": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_029": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_030": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p5_text_031": {
+      "category": "methodology_and_benefits",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_001": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_002": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_003": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_004": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_005": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_006": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_007": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_008": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_009": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_010": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_011": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_012": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_013": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_014": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_015": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_016": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_017": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_018": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_019": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_020": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_021": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_022": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_023": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_024": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_025": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_026": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_027": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_028": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    },
+    "p6_text_029": {
+      "category": "fees_schedule_and_cta",
+      "rich_text": "",
+      "source": null,
+      "source_status": "missing",
+      "locked_numeric_tokens": []
+    }
+  },
+  "claims": [],
+  "open_issue_ids": [
+    "MISSING_PROGRAMME_CONTENT"
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "pages": [
+    {
+      "id": "page_1",
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 960,
+          "radius": 0,
+          "color": "paper"
+        },
+        {
+          "type": "image",
+          "x": 42,
+          "y": 38,
+          "width": 300,
+          "height": 45,
+          "asset": "assets/demo-wordmark.png"
+        },
+        {
+          "type": "text",
+          "content_id": "p1_title",
+          "x": 42,
+          "y": 145,
+          "width": 636,
+          "max_height": 80,
+          "style": "style_13",
+          "color": "forest"
+        },
+        {
+          "type": "text",
+          "content_id": "p1_sub",
+          "x": 42,
+          "y": 235,
+          "width": 636,
+          "max_height": 45,
+          "style": "style_14",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p1_h0",
+          "x": 42,
+          "y": 340,
+          "width": 636,
+          "max_height": 35,
+          "style": "style_08",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p1_b0",
+          "x": 42,
+          "y": 380,
+          "width": 636,
+          "max_height": 110,
+          "style": "style_05",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p1_h1",
+          "x": 42,
+          "y": 505,
+          "width": 636,
+          "max_height": 35,
+          "style": "style_08",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p1_b1",
+          "x": 42,
+          "y": 545,
+          "width": 636,
+          "max_height": 110,
+          "style": "style_05",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p1_h2",
+          "x": 42,
+          "y": 670,
+          "width": 636,
+          "max_height": 35,
+          "style": "style_08",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p1_b2",
+          "x": 42,
+          "y": 710,
+          "width": 636,
+          "max_height": 110,
+          "style": "style_05",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p1_footer",
+          "x": 42,
+          "y": 915,
+          "width": 636,
+          "max_height": 20,
+          "style": "style_12",
+          "color": "charcoal"
+        }
+      ]
+    },
+    {
+      "id": "page_2",
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 960,
+          "radius": 0,
+          "color": "paper"
+        },
+        {
+          "type": "image",
+          "x": 42,
+          "y": 38,
+          "width": 300,
+          "height": 45,
+          "asset": "assets/demo-wordmark.png"
+        },
+        {
+          "type": "text",
+          "content_id": "p2_title",
+          "x": 42,
+          "y": 145,
+          "width": 636,
+          "max_height": 80,
+          "style": "style_13",
+          "color": "forest"
+        },
+        {
+          "type": "text",
+          "content_id": "p2_sub",
+          "x": 42,
+          "y": 235,
+          "width": 636,
+          "max_height": 45,
+          "style": "style_14",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p2_h0",
+          "x": 42,
+          "y": 340,
+          "width": 636,
+          "max_height": 35,
+          "style": "style_08",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p2_b0",
+          "x": 42,
+          "y": 380,
+          "width": 636,
+          "max_height": 110,
+          "style": "style_05",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p2_h1",
+          "x": 42,
+          "y": 505,
+          "width": 636,
+          "max_height": 35,
+          "style": "style_08",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p2_b1",
+          "x": 42,
+          "y": 545,
+          "width": 636,
+          "max_height": 110,
+          "style": "style_05",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p2_h2",
+          "x": 42,
+          "y": 670,
+          "width": 636,
+          "max_height": 35,
+          "style": "style_08",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p2_b2",
+          "x": 42,
+          "y": 710,
+          "width": 636,
+          "max_height": 110,
+          "style": "style_05",
+          "color": "charcoal"
+        },
+        {
+          "type": "text",
+          "content_id": "p2_footer",
+          "x": 42,
+          "y": 915,
+          "width": 636,
+          "max_height": 20,
+          "style": "style_12",
+          "color": "charcoal"
+        }
+      ]
+    }
+  ]
+}

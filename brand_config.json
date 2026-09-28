@@ -1,0 +1,296 @@
+{
+  "schema_version": "1.0",
+  "brand": "Document Engine Demo",
+  "approval_status": "demo_requires_owner_review",
+  "tagline": "Reusable editorial publishing",
+  "logos": {
+    "primary": "assets/demo-wordmark.png",
+    "alternate": null,
+    "monochrome": null,
+    "dark_background_variant": null,
+    "missing_variant_policy": "use original primary on an off-white panel; never recolour",
+    "clear_space_pt": 18,
+    "aspect_ratio": "preserve; contain; never crop"
+  },
+  "colors": {
+    "forest": "#243B53",
+    "lime": "#3B82F6",
+    "charcoal": "#1A1A1A",
+    "gold": "#94A3B8",
+    "paper": "#F8FAFC",
+    "muted": "#52606D",
+    "pale": "#E2E8F0",
+    "white": "#FFFFFF",
+    "rule": "#CBD5E1",
+    "wave": "#486581",
+    "on_green_label": "#DBEAFE",
+    "on_green_body": "#F1F5F9",
+    "on_green_muted": "#E2E8F0",
+    "gold_tint": "#E2E8F0"
+  },
+  "color_authority": {
+    "locked": [],
+    "supporting_tints": "Generic public demo palette; customise for your organisation"
+  },
+  "fonts": {
+    "Sans": "fonts/Carlito-Regular.ttf",
+    "Bold": "fonts/Carlito-Bold.ttf",
+    "Italic": "fonts/Carlito-Italic.ttf",
+    "Editorial": "fonts/Caladea-Regular.ttf",
+    "EditorialItalic": "fonts/Caladea-Italic.ttf",
+    "EditorialBold": "fonts/Caladea-Bold.ttf"
+  },
+  "font_policy": {
+    "heading": "Caladea Regular / Italic",
+    "body": "Carlito Regular / Bold",
+    "approval_basis": "Openly licensed demonstration fonts",
+    "substitutions": [],
+    "approved_fallback": null,
+    "missing_font_action": "stop; no silent substitution"
+  },
+  "page": {
+    "width_pt": 720,
+    "height_pt": 960,
+    "format": "custom portrait, 10 \u00d7 13\u2153 inches",
+    "margin_left_pt": 42,
+    "margin_right_pt": 42,
+    "content_width_pt": 636,
+    "footer_top_pt": 915,
+    "print_profile": "RGB office/digital print master; not PDF/X or commercial press certified",
+    "bleed_pt": 0
+  },
+  "grid": {
+    "columns": 6,
+    "two_column_width_pt": 310,
+    "two_column_gutter_pt": 16,
+    "three_column_pitch_pt": 210,
+    "module_text_width_pt": 192
+  },
+  "spacing_scale_pt": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    42
+  ],
+  "corners_pt": {
+    "card": 8,
+    "compact": 5,
+    "cta": 8
+  },
+  "shadows": "none",
+  "images": {
+    "fit": "contain",
+    "distort": false,
+    "faces": "uncropped original assets",
+    "preferred_print_ppi": 300,
+    "minimum_digital_ppi": 150,
+    "unavailable_high_resolution_action": "flag; do not upscale as proof of quality"
+  },
+  "icons": "supplied artwork or simple consistent vector forms only; none required",
+  "header": {
+    "logo_box_pt": [
+      42,
+      26,
+      300,
+      58
+    ],
+    "section_label_top_pt": 111,
+    "page_title_top_pt": 135,
+    "subtitle_top_pt": 212
+  },
+  "footer": {
+    "top_pt": 915,
+    "rule_token": "rule",
+    "page_number_format": "{page:02d} / {pages:02d}"
+  },
+  "cta": {
+    "color": "forest",
+    "accent": "lime",
+    "qr_quiet_zone_modules": 4,
+    "url": "literal clickable URL; never infer a new enrolment address"
+  },
+  "typography_roles": {
+    "cover_title": "Caladea Regular 82pt",
+    "cover_subtitle": "Caladea Regular / Italic 43pt",
+    "page_title": "Caladea Regular / Italic 35pt",
+    "section_title": "Carlito Bold 15pt",
+    "subheading": "Carlito Bold 12\u201314pt",
+    "body": "Carlito Regular 12.4\u201315.5pt",
+    "caption": "Carlito Regular 9\u201311pt",
+    "metadata": "Carlito Bold 9pt, tracking 1.1pt",
+    "statistic": "Carlito Bold 21\u201342pt",
+    "cta": "Caladea Regular 17pt",
+    "footer": "Carlito Regular 8pt"
+  },
+  "styles": {
+    "style_01": {
+      "font": "Bold",
+      "size": 9,
+      "leading": 12,
+      "tracking": 1.1
+    },
+    "style_02": {
+      "font": "Editorial",
+      "size": 82,
+      "leading": 87
+    },
+    "style_03": {
+      "font": "Editorial",
+      "size": 43,
+      "leading": 44
+    },
+    "style_04": {
+      "font": "Editorial",
+      "size": 19,
+      "leading": 26.22
+    },
+    "style_05": {
+      "font": "Sans",
+      "size": 15.5,
+      "leading": 21.389999999999997
+    },
+    "style_06": {
+      "font": "Bold",
+      "size": 10,
+      "leading": 13.799999999999999
+    },
+    "style_07": {
+      "font": "Sans",
+      "size": 11,
+      "leading": 15.18
+    },
+    "style_08": {
+      "font": "Bold",
+      "size": 15,
+      "leading": 20.7
+    },
+    "style_09": {
+      "font": "Sans",
+      "size": 12.3,
+      "leading": 16.974
+    },
+    "style_10": {
+      "font": "Sans",
+      "size": 11.8,
+      "leading": 16.284
+    },
+    "style_11": {
+      "font": "Sans",
+      "size": 8.2,
+      "leading": 11.315999999999999
+    },
+    "style_12": {
+      "font": "Sans",
+      "size": 8,
+      "leading": 11.04
+    },
+    "style_13": {
+      "font": "Editorial",
+      "size": 35,
+      "leading": 36
+    },
+    "style_14": {
+      "font": "Sans",
+      "size": 14,
+      "leading": 19.32
+    },
+    "style_15": {
+      "font": "Sans",
+      "size": 13.2,
+      "leading": 18.215999999999998
+    },
+    "style_16": {
+      "font": "Bold",
+      "size": 12,
+      "leading": 16.56
+    },
+    "style_17": {
+      "font": "Sans",
+      "size": 12,
+      "leading": 16.56
+    },
+    "style_18": {
+      "font": "Sans",
+      "size": 12.5,
+      "leading": 17.25
+    },
+    "style_19": {
+      "font": "Sans",
+      "size": 11.5,
+      "leading": 15.87
+    },
+    "style_20": {
+      "font": "Sans",
+      "size": 12.4,
+      "leading": 15
+    },
+    "style_21": {
+      "font": "Bold",
+      "size": 11,
+      "leading": 15.18
+    },
+    "style_22": {
+      "font": "Sans",
+      "size": 9,
+      "leading": 12.419999999999998
+    },
+    "style_23": {
+      "font": "Sans",
+      "size": 9.5,
+      "leading": 13.11
+    },
+    "style_24": {
+      "font": "Sans",
+      "size": 8.5,
+      "leading": 11.729999999999999
+    },
+    "style_25": {
+      "font": "Bold",
+      "size": 21,
+      "leading": 28.979999999999997
+    },
+    "style_26": {
+      "font": "Sans",
+      "size": 13,
+      "leading": 17.939999999999998
+    },
+    "style_27": {
+      "font": "Bold",
+      "size": 16,
+      "leading": 22.08
+    },
+    "style_28": {
+      "font": "Sans",
+      "size": 13.5,
+      "leading": 18.63
+    },
+    "style_29": {
+      "font": "Bold",
+      "size": 13,
+      "leading": 17.939999999999998
+    },
+    "style_30": {
+      "font": "Sans",
+      "size": 12.2,
+      "leading": 16.836
+    },
+    "style_31": {
+      "font": "Bold",
+      "size": 42,
+      "leading": 57.959999999999994
+    },
+    "style_32": {
+      "font": "Bold",
+      "size": 14,
+      "leading": 19.32
+    },
+    "style_33": {
+      "font": "Editorial",
+      "size": 17,
+      "leading": 23.459999999999997
+    }
+  }
+}

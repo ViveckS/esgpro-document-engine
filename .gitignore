@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+output/
+*.building.pdf
+.env
+.env.*
+private/
+.DS_Store
