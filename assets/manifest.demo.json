@@ -1,0 +1,8 @@
+{
+  "schema": "esgpro-assets/1.0",
+  "base_dir": ".",
+  "images": {
+    "logo": {"file": "demo-wordmark.png", "role": "logo", "source": "Original neutral placeholder"},
+    "demo_mentor": {"file": "demo-portrait.png", "role": "portrait", "source": "Original abstract artwork generated for the demo"}
+  }
+}

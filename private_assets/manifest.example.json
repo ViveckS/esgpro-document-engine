@@ -1,0 +1,12 @@
+{
+  "schema": "esgpro-assets/1.0",
+  "base_dir": ".",
+  "images": {
+    "logo": {"file": "logos/logo_primary.png", "role": "logo", "source": "Approved logo lockup"},
+    "mentor_office": {"file": "people/mentor_office.png", "role": "portrait", "max_uses": 1, "focus_y": 0.15, "source": "Rights holder / date"},
+    "mentor_studio": {"file": "people/mentor_studio.png", "role": "portrait", "max_uses": 1, "focus_y": 0.2, "matte": "mist", "source": "Rights holder / date"},
+    "alumni_one": {"file": "people/alumni_one.png", "role": "portrait", "source": "Permission reference"},
+    "alumni_two": {"file": "people/alumni_two.png", "role": "portrait", "source": "Permission reference"},
+    "alumni_three": {"file": "people/alumni_three.png", "role": "portrait", "source": "Permission reference"}
+  }
+}

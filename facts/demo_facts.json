@@ -1,0 +1,85 @@
+{
+  "schema": "esgpro-facts/1.0",
+  "as_of": "2026-09-28",
+  "note": "Neutral demonstration facts. Real organisation facts live in private_assets/facts.json (git-ignored).",
+  "organisation": {
+    "name": "Document Engine Demo Institute",
+    "tagline": "Illustrative content only"
+  },
+  "contact": {
+    "phone": "+00 0000 000000",
+    "email": "hello@demo.invalid",
+    "website": "demo.invalid"
+  },
+  "facts": {
+    "participants_trained": {
+      "value": "1,000+",
+      "label": "participants trained",
+      "source": "Illustrative"
+    },
+    "company_transformations": {
+      "value": "20+",
+      "label": "company projects",
+      "source": "Illustrative"
+    }
+  },
+  "retired_values": [
+    {
+      "value": "900+",
+      "reason": "demo of a retired figure",
+      "use": "participants_trained"
+    }
+  ],
+  "fact_guards": [
+    {
+      "pattern": "(\\d[\\d,]*\\+?)\\s+participants\\s+trained",
+      "fact": "participants_trained"
+    }
+  ],
+  "people": {
+    "mentor": {
+      "name": "Demo Mentor",
+      "role": "Lead faculty (placeholder)",
+      "cover_line": "Illustrative faculty profile",
+      "photo": "demo_mentor",
+      "bio": "An illustrative profile showing how the mentor block lays out a portrait, a short biography, credentials and shared statistics.",
+      "credentials": [
+        "Credential one",
+        "Credential two"
+      ],
+      "stats": [
+        {
+          "value": "{{fact.participants_trained}}",
+          "label": "participants trained"
+        },
+        {
+          "value": "{{fact.company_transformations}}",
+          "label": "company projects"
+        }
+      ]
+    }
+  },
+  "testimonials": {
+    "demo_a": {
+      "name": "Participant A",
+      "role": "Analyst",
+      "company": null,
+      "photo": null,
+      "outcome": "Illustrative outcome one"
+    },
+    "demo_b": {
+      "name": "Participant B",
+      "role": "Engineer",
+      "company": null,
+      "photo": null,
+      "outcome": "Illustrative outcome two"
+    },
+    "demo_c": {
+      "name": "Participant C",
+      "role": "Consultant",
+      "company": null,
+      "photo": null,
+      "outcome": "Illustrative outcome three"
+    }
+  }
+}

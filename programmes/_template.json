@@ -1,0 +1,795 @@
+{
+  "schema": "esgpro-brochure/2.0",
+  "_readme": "Copy with `python brochure.py new <id>`, answer `python brochure.py intake`, replace every TODO. Shared numbers must be {{fact.*}} tokens from the facts file, never typed in.",
+  "theme": "themes/esgpro.json",
+  "facts": "private_assets/facts.json",
+  "assets": "private_assets/manifest.json",
+  "programme": {
+    "id": "TODO: id",
+    "title": "TODO: title",
+    "short_name": "TODO: short_name",
+    "edition": "TODO: edition",
+    "subtitle": "TODO: subtitle",
+    "level": "TODO: level",
+    "audience": "TODO: audience",
+    "sibling_programme": "TODO: sibling_programme",
+    "header_label": "TODO: header_label",
+    "footer_label": "TODO: footer_label"
+  },
+  "vars": {
+    "duration": "TODO: duration",
+    "format": "TODO: format",
+    "commitment": "TODO: commitment",
+    "cohort_size": "TODO: cohort_size",
+    "start_date": "TODO: start_date",
+    "fee_full": "TODO: fee_full",
+    "fee_note": "TODO: fee_note",
+    "enrol_url": "TODO: enrol_url",
+    "enrol_url_text": "TODO: enrol_url_text",
+    "certification": "TODO: certification"
+  },
+  "pages": [
+    {
+      "template": "cover",
+      "kicker": "TODO: kicker",
+      "title": "TODO: title",
+      "title_em": "TODO: title_em",
+      "subtitle": "TODO: subtitle",
+      "lead": "TODO: lead",
+      "band_label": "TODO: band_label",
+      "kpis": [
+        {
+          "value": "{{fact.participants_trained}}",
+          "label": "TODO: label",
+          "icon": "people"
+        },
+        {
+          "value": "{{fact.company_transformations}}",
+          "label": "TODO: label",
+          "icon": "factory"
+        },
+        {
+          "value": "TODO: value",
+          "label": "TODO: label",
+          "icon": "document"
+        },
+        {
+          "value": "TODO: value",
+          "label": "TODO: label",
+          "icon": "target"
+        }
+      ],
+      "band_statement": "TODO: band_statement",
+      "quick_facts": [
+        {
+          "label": "TODO: label",
+          "value": "TODO: value",
+          "icon": "calendar"
+        },
+        {
+          "label": "TODO: label",
+          "value": "TODO: value",
+          "icon": "clock"
+        },
+        {
+          "label": "TODO: label",
+          "value": "TODO: value",
+          "icon": "trend"
+        },
+        {
+          "label": "TODO: label",
+          "value": "TODO: value",
+          "icon": "shield"
+        }
+      ],
+      "disclaimer": "TODO: disclaimer",
+      "workflow": [
+        {
+          "title": "TODO: title",
+          "text": "TODO: text"
+        },
+        {
+          "title": "TODO: title",
+          "text": "TODO: text"
+        },
+        {
+          "title": "TODO: title",
+          "text": "TODO: text"
+        },
+        {
+          "title": "TODO: title",
+          "text": "TODO: text"
+        }
+      ]
+    },
+    {
+      "kicker": "TODO: kicker",
+      "title": "TODO: title",
+      "title_em": "TODO: title_em",
+      "subtitle": "TODO: subtitle",
+      "blocks": [
+        {
+          "type": "icon_grid",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "document",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "icon": "globe",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "icon": "factory",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "icon": "target",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "icon": "search",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "icon": "leaf",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            }
+          ]
+        },
+        {
+          "type": "comparison",
+          "columns": [
+            "TODO: columns",
+            "TODO: columns",
+            "TODO: columns",
+            "TODO: columns"
+          ],
+          "highlight": 3,
+          "first_col": 0.4,
+          "rows": [
+            {
+              "label": "TODO: label",
+              "values": [
+                true,
+                true,
+                true
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "values": [
+                false,
+                "TODO: values",
+                true
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "values": [
+                false,
+                "TODO: values",
+                true
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "values": [
+                false,
+                false,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "type": "pull_quote",
+          "text": "TODO: text",
+          "attribution": "TODO: attribution"
+        }
+      ]
+    },
+    {
+      "kicker": "TODO: kicker",
+      "title": "TODO: title",
+      "title_em": "TODO: title_em",
+      "subtitle": "TODO: subtitle",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "steps": [
+            {
+              "title": "TODO: title",
+              "text": "TODO: text",
+              "output": "TODO: output"
+            },
+            {
+              "title": "TODO: title",
+              "text": "TODO: text",
+              "output": "TODO: output"
+            },
+            {
+              "title": "TODO: title",
+              "text": "TODO: text",
+              "output": "TODO: output"
+            },
+            {
+              "title": "TODO: title",
+              "text": "TODO: text",
+              "output": "TODO: output"
+            }
+          ]
+        },
+        {
+          "type": "week_plan",
+          "corner": "TODO: corner",
+          "columns": [
+            "TODO: columns",
+            "TODO: columns",
+            "TODO: columns",
+            "TODO: columns"
+          ],
+          "label_width": 150,
+          "rows": [
+            {
+              "label": "TODO: label",
+              "bars": [
+                {
+                  "start": 1,
+                  "end": 4,
+                  "title": "TODO: title",
+                  "text": "TODO: text"
+                }
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "bars": [
+                {
+                  "start": 1,
+                  "end": 2,
+                  "title": "TODO: title",
+                  "text": "TODO: text"
+                },
+                {
+                  "start": 3,
+                  "end": 3,
+                  "title": "TODO: title",
+                  "text": "TODO: text"
+                },
+                {
+                  "start": 4,
+                  "end": 4,
+                  "title": "TODO: title",
+                  "text": "TODO: text"
+                }
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "bars": [
+                {
+                  "start": 1,
+                  "end": 1,
+                  "title": "TODO: title",
+                  "milestone": true
+                },
+                {
+                  "start": 2,
+                  "end": 2,
+                  "title": "TODO: title",
+                  "milestone": true
+                },
+                {
+                  "start": 3,
+                  "end": 3,
+                  "title": "TODO: title",
+                  "milestone": true
+                },
+                {
+                  "start": 4,
+                  "end": 4,
+                  "title": "TODO: title",
+                  "milestone": true
+                }
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "bars": [
+                {
+                  "start": 1,
+                  "end": 4,
+                  "title": "TODO: title",
+                  "text": "TODO: text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "ratio": 0.46,
+          "gap": 20,
+          "valign": "TODO: valign",
+          "left": [
+            {
+              "type": "donut",
+              "title": "TODO: title",
+              "radius": 74,
+              "centre": "TODO: centre",
+              "centre_label": "TODO: centre_label",
+              "segments": [
+                {
+                  "label": "TODO: label",
+                  "value": 2,
+                  "display": "TODO: display"
+                },
+                {
+                  "label": "TODO: label",
+                  "value": 1,
+                  "display": "TODO: display"
+                },
+                {
+                  "label": "TODO: label",
+                  "value": 1,
+                  "display": "TODO: display"
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "type": "callout",
+              "variant": "dark",
+              "icon": "trend",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kicker": "TODO: kicker",
+      "title": "TODO: title",
+      "title_em": "TODO: title_em",
+      "subtitle": "TODO: subtitle",
+      "blocks": [
+        {
+          "type": "timeline",
+          "tag_width": 80,
+          "items": [
+            {
+              "tag": "TODO: tag",
+              "meta": "TODO: meta",
+              "title": "TODO: title",
+              "points": [
+                "TODO: points",
+                "TODO: points",
+                "TODO: points"
+              ],
+              "output": "TODO: output"
+            },
+            {
+              "tag": "TODO: tag",
+              "meta": "TODO: meta",
+              "title": "TODO: title",
+              "points": [
+                "TODO: points",
+                "TODO: points",
+                "TODO: points"
+              ],
+              "output": "TODO: output"
+            },
+            {
+              "tag": "TODO: tag",
+              "meta": "TODO: meta",
+              "title": "TODO: title",
+              "points": [
+                "TODO: points",
+                "TODO: points",
+                "TODO: points"
+              ],
+              "output": "TODO: output"
+            },
+            {
+              "tag": "TODO: tag",
+              "meta": "TODO: meta",
+              "highlight": true,
+              "title": "TODO: title",
+              "points": [
+                "TODO: points",
+                "TODO: points",
+                "TODO: points"
+              ],
+              "output": "TODO: output"
+            }
+          ],
+          "gap": 10
+        },
+        {
+          "type": "comparison",
+          "first_col": 0.44,
+          "columns": [
+            "TODO: columns",
+            "TODO: columns",
+            "TODO: columns",
+            "TODO: columns",
+            "TODO: columns"
+          ],
+          "rows": [
+            {
+              "label": "TODO: label",
+              "values": [
+                true,
+                true,
+                true,
+                false
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "values": [
+                true,
+                true,
+                true,
+                false
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "values": [
+                true,
+                false,
+                true,
+                false
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "values": [
+                false,
+                false,
+                true,
+                false
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "values": [
+                false,
+                false,
+                false,
+                true
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kicker": "TODO: kicker",
+      "title": "TODO: title",
+      "title_em": "TODO: title_em",
+      "subtitle": "TODO: subtitle",
+      "blocks": [
+        {
+          "type": "evidence_table",
+          "left_header": "TODO: left_header",
+          "right_header": "TODO: right_header",
+          "split": 0.6,
+          "rows": [
+            {
+              "title": "TODO: title",
+              "text": "TODO: text",
+              "why": "TODO: why",
+              "icon": "flag"
+            },
+            {
+              "title": "TODO: title",
+              "text": "TODO: text",
+              "why": "TODO: why",
+              "icon": "book"
+            },
+            {
+              "title": "TODO: title",
+              "text": "TODO: text",
+              "why": "TODO: why",
+              "icon": "shield"
+            },
+            {
+              "title": "TODO: title",
+              "text": "TODO: text",
+              "why": "TODO: why",
+              "icon": "search"
+            },
+            {
+              "title": "TODO: title",
+              "text": "TODO: text",
+              "why": "TODO: why",
+              "icon": "layers"
+            }
+          ]
+        },
+        {
+          "type": "process_flow",
+          "from": "TODO: from",
+          "to": "TODO: to",
+          "steps": [
+            {
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "title": "TODO: title",
+              "text": "TODO: text"
+            }
+          ]
+        },
+        {
+          "type": "stat_band",
+          "value": "TODO: value",
+          "value_width": 90,
+          "title": "TODO: title",
+          "text": "TODO: text"
+        },
+        {
+          "type": "checklist",
+          "title": "TODO: title",
+          "columns": 4,
+          "items": [
+            "TODO: items",
+            "TODO: items",
+            "TODO: items",
+            "TODO: items"
+          ]
+        }
+      ]
+    },
+    {
+      "kicker": "TODO: kicker",
+      "title": "TODO: title",
+      "title_em": "TODO: title_em",
+      "subtitle": "TODO: subtitle",
+      "blocks": [
+        {
+          "type": "ladder",
+          "base": 52,
+          "step": 24,
+          "steps": [
+            {
+              "level": "TODO: level",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "level": "TODO: level",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "level": "TODO: level",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "level": "TODO: level",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            }
+          ]
+        },
+        {
+          "type": "icon_grid",
+          "columns": 3,
+          "items": [
+            {
+              "icon": "mic",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "icon": "factory",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "icon": "document",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "icon": "people",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "icon": "book",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "icon": "network",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "gap": 16,
+          "left": [
+            {
+              "type": "callout",
+              "variant": "soft",
+              "icon": "check",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            }
+          ],
+          "right": [
+            {
+              "type": "callout",
+              "variant": "gold",
+              "icon": "flag",
+              "title": "TODO: title",
+              "text": "TODO: text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kicker": "TODO: kicker",
+      "title": "TODO: title",
+      "title_em": "TODO: title_em",
+      "subtitle": "TODO: subtitle",
+      "blocks": [
+        {
+          "type": "mentor",
+          "person": "mentor",
+          "photo_width": 170,
+          "cred_columns": 2
+        },
+        {
+          "type": "label",
+          "text": "TODO: text"
+        },
+        {
+          "type": "testimonials",
+          "ids": [
+            "TODO_testimonial_1",
+            "TODO_testimonial_2",
+            "TODO_testimonial_3"
+          ]
+        },
+        {
+          "type": "label",
+          "text": "TODO: text"
+        },
+        {
+          "type": "testimonials",
+          "ids": [
+            "TODO_testimonial_4",
+            "TODO_testimonial_5",
+            "TODO_testimonial_6"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "style": "caption",
+          "text": "TODO: text"
+        }
+      ]
+    },
+    {
+      "kicker": "TODO: kicker",
+      "title": "TODO: title",
+      "title_em": "TODO: title_em",
+      "subtitle": "TODO: subtitle",
+      "blocks": [
+        {
+          "type": "pricing",
+          "options": [
+            {
+              "label": "TODO: label",
+              "price": "TODO: price",
+              "note": "TODO: note",
+              "highlight": true,
+              "tag": "TODO: tag",
+              "features": [
+                "TODO: features",
+                "TODO: features",
+                "TODO: features",
+                "TODO: features"
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "price": "TODO: price",
+              "note": "TODO: note",
+              "features": [
+                "TODO: features",
+                "TODO: features"
+              ]
+            },
+            {
+              "label": "TODO: label",
+              "price": "TODO: price",
+              "note": "TODO: note",
+              "features": [
+                "TODO: features",
+                "TODO: features"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text_list",
+          "columns": 3,
+          "items": [
+            {
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "title": "TODO: title",
+              "text": "TODO: text"
+            },
+            {
+              "title": "TODO: title",
+              "text": "TODO: text"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "TODO: title",
+          "text": "TODO: text",
+          "steps": [
+            "TODO: steps",
+            "TODO: steps",
+            "TODO: steps"
+          ],
+          "button": "TODO: button",
+          "url": "TODO: url",
+          "url_text": "TODO: url_text",
+          "qr_url": "TODO: qr_url",
+          "contact": "TODO: contact"
+        }
+      ]
+    }
+  ]
+}

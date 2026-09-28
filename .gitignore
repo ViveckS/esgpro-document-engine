@@ -6,4 +6,9 @@ output/
 .env
 .env.*
 private/
+# Brand photos, logos and people data stay local; only the README and example manifest are public.
+private_assets/*
+!private_assets/README.md
+!private_assets/manifest.example.json
+dist/
 .DS_Store

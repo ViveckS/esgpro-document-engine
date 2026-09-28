@@ -1,0 +1,25 @@
+{
+  "schema": "esgpro-intake/1.0",
+  "note": "Asked before any new brochure is drafted. `brochure.py intake <file>` lists the ones still unanswered. Keys point into the programme file.",
+  "questions": [
+    {"group": "Identity", "key": "programme.title", "question": "What is the exact programme name as it should appear on the cover?", "example": "Advanced Certificate in GHG & Net-Zero Practitioner Programme"},
+    {"group": "Identity", "key": "programme.edition", "question": "Which edition or year is this brochure for?", "example": "v2026"},
+    {"group": "Identity", "key": "programme.level", "question": "What level is it (foundation, practitioner, advanced) and what does a graduate move from and to?", "example": "Advanced (practitioner to defender)"},
+    {"group": "Identity", "key": "programme.sibling_programme", "question": "Which existing ESGPro programme is closest, and what is the one difference a buyer must understand?", "example": "Same four-week core as GHG & SBTi; adds LCA integration"},
+    {"group": "Audience", "key": "programme.audience", "question": "Who is it for, and who is it explicitly not for?", "example": "EHS, quality, finance, audit or ESG professionals asked for carbon numbers"},
+    {"group": "Format", "key": "vars.duration", "question": "How long does it run?", "example": "Four weeks"},
+    {"group": "Format", "key": "vars.format", "question": "What is the delivery format (live, online, weekends, recordings)?", "example": "Live cohort, online"},
+    {"group": "Format", "key": "vars.commitment", "question": "What weekly time commitment should a participant plan for?", "example": "10–15 hours a week"},
+    {"group": "Format", "key": "vars.cohort_size", "question": "Is the cohort capped? At how many places?", "example": "25"},
+    {"group": "Format", "key": "vars.start_date", "question": "What is the next cohort start date, or the approved wording if it is not fixed yet?", "example": "Next cohort: confirm with admissions"},
+    {"group": "Curriculum", "key": "pages", "question": "List every module or week: title, what is taught (3 points) and the artefact the participant builds.", "example": "Week 1 Measure: boundary, Scope 1 & 2 ... Builds: Scope 1 & 2 inventory"},
+    {"group": "Curriculum", "key": "vars.certification", "question": "What credential is awarded, by whom, and on what completion criteria? Are any external exams included or excluded?", "example": "Certification included; external exams not included"},
+    {"group": "Fees", "key": "vars.fee_full", "question": "What is the fee, in which currency, and is it inclusive of taxes? Any instalments, booking amount, team or in-house rates?", "example": "₹74,990, one payment; teams 3+ seats on application"},
+    {"group": "Fees", "key": "vars.fee_note", "question": "What exactly does the fee cover, and what is charged separately?", "example": "All live sessions, reviewed submissions, toolkit and certification"},
+    {"group": "Enrolment", "key": "vars.enrol_url", "question": "What is the live enrolment or payment URL for the QR code? (Open it and confirm it is not a draft or copy page.)", "example": "https://learn.esgpro.in/courses/..."},
+    {"group": "Proof", "key": "pages", "question": "Which testimonials should appear (ids from facts.json), and do we have permission and a photo for each?", "example": "alankrita, sundar, pradeep + murali, dhairya, indrani"},
+    {"group": "Proof", "key": "pages", "question": "Have any shared facts changed since the last brochure (participants trained, company transformations, mentor bio, client names)? Update facts.json, never the programme file.", "example": "10,500+ participants trained; 100+ company transformations"},
+    {"group": "Assets", "key": "assets", "question": "Is the image manifest current: logo, mentor portrait(s) and one unique photo per testimonial? Any new photos to add?", "example": "private_assets/manifest.json"},
+    {"group": "Guarantees", "key": "pages", "question": "Is there a refund window or guarantee, and its exact conditions?", "example": "Week-one guarantee: full refund if requested before week two"}
+  ]
+}

@@ -16,3 +16,6 @@ jobs:
       - run: python -m pip install -r requirements.txt
       - run: python self_test.py
       - run: python render.py --output output/demo.pdf
+      - run: python brochure.py build programmes/demo.json --output output/demo-brochure.pdf
+      - run: python brochure.py intake programmes/_template.json || test $? -eq 3
+      - run: python tools/package_skill.py

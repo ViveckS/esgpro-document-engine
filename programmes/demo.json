@@ -1,0 +1,216 @@
+{
+  "schema": "esgpro-brochure/2.0",
+  "theme": "themes/esgpro.json",
+  "facts": "facts/demo_facts.json",
+  "assets": "assets/manifest.demo.json",
+  "programme": {
+    "id": "demo",
+    "title": "Publishing Engine Demonstration",
+    "edition": "v2",
+    "subtitle": "Illustrative brochure built from the component library",
+    "header_label": "DEMONSTRATION / PROGRAMME GUIDE",
+    "footer_label": "DOCUMENT ENGINE / DEMONSTRATION ONLY / ILLUSTRATIVE CONTENT"
+  },
+  "vars": {
+    "fee": "USD 100",
+    "url": "https://github.com/ViveckS/esgpro-document-engine"
+  },
+  "pages": [
+    {
+      "template": "cover",
+      "kicker": "Document engine · demonstration",
+      "title": "Design with clarity.",
+      "title_em": "Publish with evidence.",
+      "subtitle": "One component library, one theme, shared facts.",
+      "lead": "Every number below comes from the shared facts file, every image from the manifest, and every page from tested infographic blocks.",
+      "kpis": [
+        {
+          "value": "{{fact.participants_trained}}",
+          "label": "participants trained (illustrative)",
+          "icon": "people"
+        },
+        {
+          "value": "{{fact.company_transformations}}",
+          "label": "company projects (illustrative)",
+          "icon": "factory"
+        },
+        {
+          "value": "27",
+          "label": "block types in the library",
+          "icon": "layers"
+        },
+        {
+          "value": "0",
+          "label": "hand-typed shared facts",
+          "icon": "shield"
+        }
+      ],
+      "band_statement": "Content, design and facts stay separate.",
+      "workflow": [
+        {
+          "title": "INTAKE",
+          "text": "Answer the questions"
+        },
+        {
+          "title": "COMPOSE",
+          "text": "Choose blocks per page"
+        },
+        {
+          "title": "BUILD",
+          "text": "Gates catch drift"
+        },
+        {
+          "title": "REVIEW",
+          "text": "Inspect every page"
+        }
+      ],
+      "quick_facts": [
+        {
+          "label": "Pages",
+          "value": "Three",
+          "icon": "document"
+        },
+        {
+          "label": "Theme",
+          "value": "Locked palette",
+          "icon": "layers"
+        },
+        {
+          "label": "Facts",
+          "value": "Single registry",
+          "icon": "book"
+        },
+        {
+          "label": "Images",
+          "value": "Reuse-checked",
+          "icon": "search"
+        }
+      ],
+      "disclaimer": "Illustrative demonstration content. Not a programme offer."
+    },
+    {
+      "kicker": "01 / How it works",
+      "title": "Components, not coordinates.",
+      "title_em": "Consistency by construction.",
+      "subtitle": "Each page is a stack of measured blocks; overflow and drift stop the build.",
+      "blocks": [
+        {
+          "type": "process_flow",
+          "steps": [
+            {
+              "title": "INTAKE",
+              "text": "Questions capture every programme fact.",
+              "output": "Programme file"
+            },
+            {
+              "title": "COMPOSE",
+              "text": "Pages are built from library blocks.",
+              "output": "Page plan"
+            },
+            {
+              "title": "BUILD",
+              "text": "Facts, images and fit are checked.",
+              "output": "PDF + QA report"
+            },
+            {
+              "title": "REVIEW",
+              "text": "A person inspects every page.",
+              "output": "Approved brochure"
+            }
+          ]
+        },
+        {
+          "type": "comparison",
+          "columns": [
+            "Check",
+            "Old slot engine",
+            "Brochure builder"
+          ],
+          "highlight": 2,
+          "rows": [
+            {
+              "label": "Shared facts from one registry",
+              "values": [
+                false,
+                true
+              ]
+            },
+            {
+              "label": "Image reuse and duplicate detection",
+              "values": [
+                false,
+                true
+              ]
+            },
+            {
+              "label": "Theme-locked page backgrounds",
+              "values": [
+                false,
+                true
+              ]
+            },
+            {
+              "label": "Infographic on every page",
+              "values": [
+                false,
+                true
+              ]
+            }
+          ]
+        },
+        {
+          "type": "testimonials",
+          "ids": [
+            "demo_a",
+            "demo_b",
+            "demo_c"
+          ]
+        }
+      ],
+      "allow_whitespace": true
+    },
+    {
+      "kicker": "02 / Enrol",
+      "title": "A clear price.",
+      "title_em": "A clear next step.",
+      "subtitle": "Pricing and call-to-action blocks with a generated QR code.",
+      "blocks": [
+        {
+          "type": "pricing",
+          "options": [
+            {
+              "label": "Demo fee",
+              "price": "{{var.fee}}",
+              "note": "Illustrative only.",
+              "highlight": true,
+              "tag": "Example",
+              "features": [
+                "Every block type",
+                "Automated checks"
+              ]
+            },
+            {
+              "label": "Teams",
+              "price": "3+ seats",
+              "note": "Illustrative only.",
+              "features": [
+                "Shared facts"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Clone the repository.",
+          "text": "Run the demo, then copy the template for your own programme.",
+          "button": "Open on GitHub",
+          "url": "{{var.url}}",
+          "url_text": "github.com",
+          "qr_url": "{{var.url}}",
+          "contact": "Demonstration only."
+        }
+      ],
+      "allow_whitespace": true
+    }
+  ]
+}
