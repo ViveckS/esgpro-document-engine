@@ -1369,7 +1369,7 @@ def collect_types(blocks):
     return out
 
 
-def build(programme, output, proof=False, previews=False, allow_placeholders=False):
+def build(programme, output, proof=False, previews=False, allow_placeholders=False, dpi=150):
     ctx = Context(programme, proof=proof, allow_placeholders=allow_placeholders)
     register_fonts(ctx)
     if 'page_backgrounds' in json.dumps(ctx.prog.get('pages', [])) or \
@@ -1420,26 +1420,32 @@ def build(programme, output, proof=False, previews=False, allow_placeholders=Fal
         raise BuildError('\n'.join(ctx.errors) + '\nInspection copy: %s' % failed)
     tmp.replace(out)
     if previews:
-        report['previews'] = render_previews(out)
+        report['previews'] = render_previews(out, dpi=dpi)
     out.with_suffix('.qa.json').write_text(json.dumps(report, indent=2, ensure_ascii=False))
     return report
 
 
-def render_previews(pdf, dpi=80):
-    try:
-        import pymupdf
-    except ImportError:
-        return 'PyMuPDF not installed; pip install pymupdf for PNG previews'
-    d = pymupdf.open(str(pdf))
+def render_previews(pdf, dpi=150):
     outdir = Path(pdf).with_suffix('')
     outdir = outdir.parent / (outdir.name + '_previews')
-    outdir.mkdir(exist_ok=True)
-    files = []
-    for k, page in enumerate(d, 1):
-        f = outdir / ('page_%02d.png' % k)
-        page.get_pixmap(dpi=dpi).save(str(f))
-        files.append(str(f))
-    return files
+    outdir.mkdir(parents=True, exist_ok=True)
+    try:
+        import pymupdf
+        d = pymupdf.open(str(pdf))
+        files = []
+        for k, page in enumerate(d, 1):
+            f = outdir / ('page_%02d.png' % k)
+            page.get_pixmap(dpi=dpi).save(str(f))
+            files.append(str(f))
+        return files
+    except ImportError:
+        pass
+    import shutil, subprocess
+    if shutil.which('pdftoppm'):
+        prefix = str(outdir / 'page')
+        subprocess.run(['pdftoppm', '-png', '-r', str(dpi), str(pdf), prefix], check=False)
+        return [str(p) for p in sorted(outdir.glob('page-*.png'))]
+    return 'PyMuPDF or pdftoppm not installed; install pymupdf for PNG previews'
 
 
 # ---------------------------------------------------------------- intake
@@ -1475,6 +1481,42 @@ def intake(programme_path, as_json=False):
     return open_q
 
 
+def validate_programme(programme, allow_placeholders=False):
+    """Validate programme content, token references, and assets without building PDF."""
+    ctx = Context(programme, proof=True, allow_placeholders=allow_placeholders)
+    register_fonts(ctx)
+    if 'page_backgrounds' in json.dumps(ctx.prog.get('pages', [])) or \
+            any('background' in pg for pg in ctx.prog.get('pages', [])):
+        ctx.errors.append('Page backgrounds are theme-locked; remove "background" from the programme file')
+    pages = ctx.resolve(ctx.prog['pages'], 'pages')
+    ctx.prog['programme'] = ctx.resolve(ctx.prog['programme'], 'programme')
+    lint(ctx, pages)
+    used = []
+    for pg in pages:
+        if pg.get('template') != 'cover':
+            used.append(collect_types(pg.get('blocks', [])))
+    ctx.assets.finish()
+    variety(ctx, used)
+    ctx.errors = list(dict.fromkeys(ctx.errors))
+    ctx.warnings = sorted(set(ctx.warnings))
+    qs = load(ROOT / 'intake/questions.json')['questions']
+    open_q = []
+    for q in qs:
+        v = get_path(ctx.prog, q['key'])
+        blank = v is None or v == '' or v == [] or (isinstance(v, str) and UNFINISHED.search(v))
+        if blank and q.get('required', True):
+            open_q.append(f"{q['group']}.{q['key']}")
+    return {
+        'programme': ctx.prog['programme'].get('title', 'Unknown'),
+        'valid': len(ctx.errors) == 0,
+        'pages': len(pages),
+        'errors': ctx.errors,
+        'warnings': ctx.warnings,
+        'open_intake_questions': open_q,
+        'facts_used': sorted(k for k in ctx.used_tokens if k.startswith('fact.')),
+    }
+
+
 def new_programme(pid):
     dst = ROOT / 'programmes' / (pid + '.json')
     if dst.exists():
@@ -1493,7 +1535,12 @@ def main(argv=None):
     b.add_argument('--output')
     b.add_argument('--proof', action='store_true', help='add the review ribbon')
     b.add_argument('--previews', action='store_true', help='also write PNG page previews (needs PyMuPDF)')
+    b.add_argument('--dpi', type=int, default=150, help='preview DPI (default: 150)')
     b.add_argument('--allow-placeholders', action='store_true', help='draw visible placeholders for missing images')
+    v = sub.add_parser('validate', help='validate programme content and assets without building PDF')
+    v.add_argument('programme')
+    v.add_argument('--allow-placeholders', action='store_true')
+    v.add_argument('--json', action='store_true')
     i = sub.add_parser('intake')
     i.add_argument('programme')
     i.add_argument('--json', action='store_true')
@@ -1503,8 +1550,26 @@ def main(argv=None):
     try:
         if a.cmd == 'build':
             outp = a.output or str(ROOT / 'output' / (Path(a.programme).stem + ('.proof' if a.proof else '') + '.pdf'))
-            r = build(a.programme, outp, a.proof, a.previews, a.allow_placeholders)
+            r = build(a.programme, outp, a.proof, a.previews, a.allow_placeholders, dpi=a.dpi)
             print(json.dumps({k: r[k] for k in ('output', 'mode', 'pages', 'warnings')}, indent=2, ensure_ascii=False))
+        elif a.cmd == 'validate':
+            res = validate_programme(a.programme, a.allow_placeholders)
+            if a.json:
+                print(json.dumps(res, indent=2, ensure_ascii=False))
+            else:
+                status_str = 'VALID' if res['valid'] else 'INVALID'
+                print(f"Validation for: {res['programme']} ({res['pages']} pages) - Status: {status_str}")
+                if res['open_intake_questions']:
+                    print(f"Open intake questions ({len(res['open_intake_questions'])}): {', '.join(res['open_intake_questions'])}")
+                if res['warnings']:
+                    print(f"Warnings ({len(res['warnings'])}):")
+                    for w in res['warnings']:
+                        print(f"  - {w}")
+                if res['errors']:
+                    print(f"Errors ({len(res['errors'])}):")
+                    for e in res['errors']:
+                        print(f"  - {e}")
+            sys.exit(0 if res['valid'] else 2)
         elif a.cmd == 'intake':
             sys.exit(3 if intake(a.programme, a.json) else 0)
         else:

@@ -24,49 +24,65 @@
       "rich_text": "Design with clarity.",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p1_sub": {
       "rich_text": "A reusable publishing engine",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p1_h0": {
       "rich_text": "Separate content from design",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p1_b0": {
       "rich_text": "Edit structured text, typography and page geometry independently. The forest, lime and gold palette and serif headings remain consistent across documents.",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p1_h1": {
       "rich_text": "Build a dependable workflow",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p1_b1": {
       "rich_text": "Draft a content model, render a review proof, inspect each page, then approve the exact content and configuration. This demonstration contains no programme or accreditation claims.",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p1_h2": {
       "rich_text": "Reuse with confidence",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p1_b2": {
       "rich_text": "Use the MIT-licensed code and templates in your own projects. Bring your own approved brand assets. Third-party fonts retain their original licences.",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p1_footer": {
       "rich_text": "DOCUMENT ENGINE \u00b7 DEMONSTRATION                                        1 / 2",
@@ -75,25 +91,33 @@
         "2"
       ],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p2_title": {
       "rich_text": "Review before release.",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p2_sub": {
       "rich_text": "Measured layouts. Explicit approvals.",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p2_h0": {
       "rich_text": "Protect numerical content",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p2_b0": {
       "rich_text": "A sample value of 100 demonstrates frozen numerical tokens. Changes trigger review; matching tokens do not establish factual accuracy.",
@@ -101,31 +125,41 @@
         "100"
       ],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p2_h1": {
       "rich_text": "Make deliberate layouts",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p2_b1": {
       "rich_text": "Text is measured against explicit slots. Oversized content blocks stop export. Add pages or restructure copy; the engine does not automatically paginate.",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p2_h2": {
       "rich_text": "Keep publication accountable",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p2_b2": {
       "rich_text": "Final export requires reviewed provenance, resolved issues and matching approval hashes. Visual inspection and destination-link checks are still your responsibility.",
       "locked_numeric_tokens": [],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     },
     "p2_footer": {
       "rich_text": "DOCUMENT ENGINE \u00b7 DEMONSTRATION                                        2 / 2",
@@ -134,7 +168,9 @@
         "2"
       ],
       "source_status": "editorial_nonfactual",
-      "provenance": "Original illustrative documentation, not programme claims"
+      "provenance": "Original illustrative documentation, not programme claims",
+      "category": "editorial",
+      "source": null
     }
   }
 }

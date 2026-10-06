@@ -1,2 +1,4 @@
-reportlab>=4,<5
-Pillow>=10,<12
+reportlab>=4.0.0
+Pillow>=10.0.0
+pymupdf>=1.24.0
+jsonschema>=4.20.0

@@ -26,6 +26,7 @@ Optional: `pip install pymupdf` and add `--previews` to write PNG previews of ea
 ```bash
 python brochure.py new my-programme                 # copies programmes/_template.json
 python brochure.py intake programmes/my-programme.json   # the questions to answer first
+python brochure.py validate programmes/my-programme.json # validate facts, tokens, assets without writing PDF
 python brochure.py build programmes/my-programme.json --output output/review.pdf --proof --previews
 python brochure.py build programmes/my-programme.json --output "output/My Programme v2026.pdf" --previews
 ```
@@ -68,10 +69,13 @@ The supplied demo intentionally fails final export. See [docs/RELEASE.md](docs/R
 
 - Content, styles and geometry are separate JSON files.
 - Fixed-slot text measurement, missing-font/asset checks, numerical-change detection and approval hashes.
+- Vector primitives in `render.py` include rect, line, circle, badge, text, label, image, wave, and link.
+- Runtime JSON Schema validation via `content.schema.json` and `jsonschema` (CLI `--validate-schema`).
+- Automatic PNG page previews via PyMuPDF / pdftoppm (`--previews`).
+- Fast preflight validation CLI for brochures (`brochure.py validate`).
 - Any number of declarative pages; no automatic pagination, content writing or fact verification.
 - Human visual QA remains necessary: the renderer does not detect every overlap or inspect every non-text boundary.
 - Output is RGB PDF with selectable text and embedded fonts, not PDF/X or certified press-ready output.
-- `content.schema.json` is a reference contract; runtime does not currently execute JSON Schema validation.
 - Only process trusted local models and assets. This is a desktop publishing tool, not a hardened multi-user service.
 
 ## Contributing
